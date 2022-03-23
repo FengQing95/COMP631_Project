@@ -12,8 +12,8 @@ class YelpItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     restaurant = scrapy.Field()
-    rating = scrapy.Field()
+    # rating = scrapy.Field()
     text = scrapy.Field()
-    date = scrapy.Field()
+    # date = scrapy.Field()
     address = scrapy.Field()
-    price = scrapy.Field()
+    # price = scrapy.Field()
